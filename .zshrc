@@ -89,3 +89,14 @@ eval "$(rbenv init -)"
 
 export NVM_DIR=$HOME/.nvm
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# api keys
+export YOUTUBE_KEY=AIzaSyCiPjc0gIrrUvmqZYQQ0R5IhGKl2kZDgrI
+export VIMEO_CLIENT_ID=5a8d48dd7d1bbeceef2599e149281824432cbd54
+export VIMEO_CLIENT_SECRET=WB0utFSkMpG+eLUuW+i8nerTm2kPIg0SN/39g72FyvaxaPiCHtuRTZ5n0IIlt3wV907Gh28gkHDfVVdhKhGkVoMAm3BuQqiKYsUNlHCDPls+uNRlKXpenAoH80JWrPwt
+export VIMEO_ACCESS_TOKEN=9bb0e81723fd68f4788415a4a69ea04a
+
+alias like=~/321157/bin/H941000
+alias like_batch=~/321157/bin/H941000_BATCH
+
+nvm use 5
